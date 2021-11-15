@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 - <<HERE
-$PYCODE
-HERE
+python3 - <<EOF
+$PYCODE 
+EOF
