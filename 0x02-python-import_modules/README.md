@@ -44,3 +44,8 @@ The program prints all the names defined by the compiled hidden_5.pyc file.
 - Print only names that do not start with __
 - The code should not be executed when imported
 - hidden_4.pyc has been compiled with Python 3.8.x
+## task 5. Everything can be imported
+### filename: 5-variable_load.py
+Imports the variable a from the file varaible_load_5.py and prints its value.
+- asterik * and __import__ should not be used
+- The code should not be executed when imported
