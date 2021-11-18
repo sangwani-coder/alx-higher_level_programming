@@ -23,4 +23,8 @@ Imports the function def add(a, b): from the file add_0.py and prints the result
 - The print function should be usued with string format to display integers
 - the asteric * should not be used for imporint of __import__
 - The code should not be executed when imported -by using __import__
-
+## task 1. My first toolbox
+### filename: 1-calculation.py
+Imports functions from the file calculator_1.py, does some Maths, and prints the result
+- Do not use the print() more than four times.
+- The code should not be executed when imported by using __import__
