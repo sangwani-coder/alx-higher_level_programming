@@ -32,7 +32,7 @@ Imports functions from the file calculator_1.py, does some Maths, and prints the
 ### filename: 2-args.py
 Prints the number of and the list of arguments to the program.
 - The code should not be executed when imported.
-## task 3. Infinite addition
+## Task 3. Infinite addition
 ### filename: 3-infinite_add.py
 The program prints the result of the addition of all arguments.
 - The output should be the result of the addition of all arguments, followed by a new line.
