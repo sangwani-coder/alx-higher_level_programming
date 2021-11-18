@@ -5,6 +5,7 @@ if __name__ == '__main__':
     num = sys.argv
     if len(num) <= 1:
         print('0')
-    for i in range(1, len(num)):
-        Sum += int(num[i])
+    else:
+        for i in range(1, len(num)):
+            Sum += int(num[i])
     print('{:d}'.format(Sum))
