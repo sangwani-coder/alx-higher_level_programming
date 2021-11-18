@@ -37,3 +37,10 @@ Prints the number of and the list of arguments to the program.
 The program prints the result of the addition of all arguments.
 - The output should be the result of the addition of all arguments, followed by a new line.
 - The code should not be executed when imported.
+## Task 4. Who are you?
+### filename: 4-hidden_discovery.py
+The program prints all the names defined by the compiled hidden_5.pyc file.
+- Print one nme per line, in alpha order
+- Print only names that do not start with __
+- The code should not be executed when imported
+- hidden_4.pyc has been compiled with Python 3.8.x
