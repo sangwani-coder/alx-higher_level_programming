@@ -4,4 +4,4 @@ def search_replace(my_list, search, replace):
     idx_list = [i for i, el in enumerate(my_list) if el == search]
     for idx in idx_list:
         new_list[idx] = replace
-    return new_listi
+    return new_list
