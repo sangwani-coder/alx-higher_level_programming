@@ -26,9 +26,9 @@ write a function that prints x elements of a list
 * Use the try: / except:
 * Importing of modules is not allowed
 * The use of the len() is not allowed
-#### file
+### file
 0-safe_print_list.py
-#### test file
+### test file
 0-main.py
 ### 1.Safe printing of integers list
 Write a functiond that prints an integer with "{:d}".format().
@@ -41,8 +41,25 @@ Write a functiond that prints an integer with "{:d}".format().
 * Use "{:d}".format() to print as integer
 * Importing of modules is not allowed
 * The use of the type() is not allowed
-#### file
+### file
 1-safe_print_integer.py
-#### test file
+### test file
 1-main.py
+### 2.Print and count integers
+Write a funciton that prints the first x elements of a list and only integers
+* Prototype __def safe_print_list_integers(my_list=[], x=0):
+* my_list can contain any type(in, str, etc)
+* All integers have to be printed on the same line followed by a new line -
+	other type of value in the list must be skipped
+* x represents the number of elements to access in my_list
+* x can be bigger than the length of my_list - if its the case, an exception is expected to occur
+* Returns the real number of integers printed
+* Use try: / except:
+use "{:d}".format() to print an integer
+* Importing of modules is not allowed
+* The use of the len() is not allowed
+### file
+2-safe_print_list_integers.py
+### test file
+2-main.py
 
