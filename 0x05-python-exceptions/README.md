@@ -62,4 +62,16 @@ use "{:d}".format() to print an integer
 2-safe_print_list_integers.py
 ### test file
 2-main.py
-
+### 3.Integers division with debug
+Write a function that divides 2 integers and prints the result.
+* Prototype: def __safe_print_division(a, b):__
+* Assume and and b are integers
+* The result of the division should print on the finally: section preceded by Inside result:
+* returns the value of the division, otheriwse None
+* Use try: / except: / finally:
+* use "{:d}".format() to print the result
+* Importing of any modules is not allowed
+### files
+3-safe_print_division.py
+### test file
+3-main.py
