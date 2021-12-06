@@ -17,17 +17,32 @@ In this project we are required to:
 # TASKS
 ### 0.Safe list printing
 write a function that prints x elements of a list
-* prototype: def safe_print_list(my_list=[], x=0):
+* prototype: _def safe_print_list(my_list=[], x=0):_
 * my_list can contain any type (int, str, etc)
 * All elements must be printed on the same line followed by a new line
 * x represents the number of elements to print
 * x can be bigger than length of my_list
 * Returns the real number of elements printed
-* Use the try: / except
+* Use the try: / except:
 * Importing of modules is not allowed
 * The use of the len() is not allowed
 #### file
 0-safe_print_list.py
 #### test file
 0-main.py
+### 1.Safe printing of integers list
+Write a functiond that prints an integer with "{:d}".format().
+* Prototype: def safe_print_integer(value):
+* value can be any type(int, str, etc)
+* The integer should be printed followed by a new line
+* Returns True if value has been correctly printed (it means the value is an int)
+* Otherwise, returns False
+* Use ty: / except:
+* Use "{:d}".format() to print as integer
+* Importing of modules is not allowed
+* The use of the type() is not allowed
+#### file
+1-safe_print_integer.py
+#### test file
+1-main.py
 
