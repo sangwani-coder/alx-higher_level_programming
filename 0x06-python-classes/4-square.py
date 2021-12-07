@@ -27,5 +27,7 @@ class Square:
         """ sets the new size of the square"""
         if type(value) == int:
             self.__size = value
+        elif value < 0:
+            raise ValueError("size must be >=0")
         else:
             raise TypeError("size must be integer")
