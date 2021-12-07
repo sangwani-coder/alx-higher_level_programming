@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Module with a class thet defines a square""""
+
+
 class Square:
     """Defines a square object
     """
