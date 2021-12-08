@@ -69,6 +69,7 @@ class Square:
                 for j in range(self.size):
                     print("#", end='')
                 print()
+
     def __repr__(self):
         """Prints the value of an instance of the Square class """
         newStr = ""
