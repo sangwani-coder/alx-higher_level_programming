@@ -12,5 +12,5 @@ In this project I learnt to how to use Test-driven development
 ## Files, Prototypes, description
 
 |  Files	   |Prototype	  |Description             |Test file (doctest)                                                                      | Test file (input/output)
-|------------------|--------------|------------------------|------------------------------------------------------------------------------|--------------/
-|0-add_integer.py | add_integer(a, b-98): | Returns the addition of its two integer args | [0-add_integer.txt](./tests/0-add_integer.txt) / [0-main.py](./tests/0-main.py)
+|------------------|--------------|------------------------|------------------------------------------------------------------------------|--------------|
+|0-add_integer.py | add_integer(a, b-98): | Returns the addition of its two integer args | [0-add_integer.txt](./tests/0-add_integer.txt) |[0-main.py](./tests/0-main.py) |
