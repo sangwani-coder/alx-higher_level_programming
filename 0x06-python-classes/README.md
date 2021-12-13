@@ -19,5 +19,7 @@ In this project we are required to learn and understand OOP
 | '4-square.py' | defines a square based on '3-square.py' |
 | '5-square.py' | defines a square based on '4-square.py' |
 | '6-square.py' | defines a square based on '5-square.py' |
+| '101-square.py' | defines a square based on '6-sqaure.py' |
+| '102-square.py' | compares 2 squares based on '4-square.py'|
 
 Author: sangwani P. Zyambo
