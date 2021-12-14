@@ -1,0 +1,32 @@
+Author: Sangwni P. Zyambo
+
+This module contains a function that prints test with 2 new lines after each
+of these characters: dot(.), question mark(?) and colon(:).
+
+======================================
+Prototpe: def text_indentation(text):
+=======================================
+
+Usage:
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+	>>> text_indentation(""" This is my example text, I will use it to test my doctest. How are you? I have it: lets test now""")
+	This is my example text, I will use it to test my doctest.	
+	<BLANKLINE>
+	How are you?
+	<BLANKLINE>
+	I have it:
+	<BLANKLINE>
+	lets test now
+
+Types of Errors
+	>>> text_indentation(1234)
+	Traceback (most recent call lat):
+	raise TypeError: text must be a string
+
+	>>> text_indentation()
+	Traceback (most recent call last):
+	raise TypeError: text_indentation() missing 1 required positinal argument: 'text'
+
+
+
+
