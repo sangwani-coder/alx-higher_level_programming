@@ -33,7 +33,7 @@ If called with a negative number
 	ValueError: size must be >= 0
 
 If size is a float and is less than 0, or not an integer
-	>>> print_square(0.4)
+	>>> print_square(6.4)
 	Traceback (most recent call last):
 	TypeError: size must be an integer
 	
@@ -41,3 +41,6 @@ If size is a float and is less than 0, or not an integer
 	Traceback (most recent call last):
 	TypeError: size must be an integer
 
+	>>> print_square()
+	Traceback (most recent call last):
+	TypeError: print_square() missing 1 required postional argument: 'size'
