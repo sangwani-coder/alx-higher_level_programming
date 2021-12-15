@@ -31,8 +31,7 @@ def matrix_divided(matrix, div):
     else:
         raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
 
-    import copy
-    res = copy.deepcopy(matrix)
+    res = matrix[:]
     for row in range(len(res)):
         for cols in range(len(res[row])):
             if(not isinstance(matrix[row][cols], int)) and (not isinstance(matrix[row][cols], float)):
