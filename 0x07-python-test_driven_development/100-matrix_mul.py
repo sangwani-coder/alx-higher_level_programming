@@ -1,6 +1,5 @@
-!/usr/bin/python3
-# 100-matrix_mul.py
-# Brennan D Baraban <375@holbertonschool.com>
+#!/usr/bin/python3
+
 """Defines a matrix multiplication function."""
 
 
