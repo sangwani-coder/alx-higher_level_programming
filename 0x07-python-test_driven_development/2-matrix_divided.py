@@ -36,6 +36,6 @@ def matrix_divided(matrix, div):
     for row in range(len(res)):
         for cols in range(len(res[row])):
             if(not isinstance(matrix[row][cols], int)) and (not isinstance(matrix[row][cols], float)):
-                raise TypeError("matrix must be matrix (list of lists) of integers/floats")
+                raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
             res[row][cols] = round((res[row][cols] / div), 2)
     return res
