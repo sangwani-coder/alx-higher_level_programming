@@ -48,24 +48,21 @@ Function does not take in string data types
 	>>> add_integer(4, "School")
 	Traceback (most recent call last):
 		...
-	TypeError: b must be an integer	
+	TypeError: b must be an integer
+
 	>>> add_integer("Great", 6)
 	Traceback (most recent call last):
 		...
 	TypeError: a must be an integer
 
 Function does not take None data type
-
-
 	>>> add_integer(None)
 	Traceback (most recent call last):
 		...
 	TypeError: a must be an integer
-
-If both arguments are not int of float
-
+	
 	>>> add_integer("best", "school")
-	Traceback (most recent call  last):
+	Traceback (most recent call last):
 		...
 	TypeError: a must be an integer
 
@@ -74,18 +71,16 @@ ValueErrors
 =============
 
 Cannot convert float Nan to integer
-
-	>>> add_integer(float('Nan'))
+	>>> add_integer(float('NaN'))
 	Traceback (most recent call last):
 		...
-	ValueError: cannot convert float Nan to integer
+	ValueError: cannot convert float NaN to integer
 
 ===============
 OverFlowErrors
 ===============
 
 If the function receives positive 'inf' or negative 'inf'
-
 	>>> add_integer(float('inf'))
 	Traceback (most recent call last):
 		...
