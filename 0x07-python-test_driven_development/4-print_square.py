@@ -5,6 +5,7 @@
     Defines a function that prints a square
 """
 
+
 def print_square(size):
     """
         Prints a square with the character "#".
