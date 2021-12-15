@@ -10,7 +10,7 @@ Prototpe: def text_indentation(text):
 Usage:
 	>>> text_indentation = __import__('5-text_indentation').text_indentation
 	>>> text_indentation(""" This is my example text, I will use it to test my doctest. How are you? I have it: lets test now""")
-	This is my example text, I will use it to test my doctest.	
+	This is my example text, I will use it to test my doctest.
 	<BLANKLINE>
 	How are you?
 	<BLANKLINE>
@@ -20,13 +20,9 @@ Usage:
 
 Types of Errors
 	>>> text_indentation(1234)
-	Traceback (most recent call lat):
-	raise TypeError: text must be a string
+	Traceback (most recent call last):
+	TypeError: text must be a string
 
 	>>> text_indentation()
 	Traceback (most recent call last):
-	raise TypeError: text_indentation() missing 1 required positinal argument: 'text'
-
-
-
-
+	TypeError: text_indentation() missing 1 required positional argument: 'text'

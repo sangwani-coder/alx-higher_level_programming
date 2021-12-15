@@ -35,9 +35,9 @@ If called with a negative number
 If size is a float and is less than 0, or not an integer
 	>>> print_square(0.4)
 	Traceback (most recent call last):
-	raise TypeError: size must be an integer
+	TypeError: size must be an integer
 	
 	>>> print_square("three")
 	Traceback (most recent call last):
-	raise TYpeError: size must be an integer
+	TypeError: size must be an integer
 
