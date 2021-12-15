@@ -21,7 +21,7 @@ When called with string arguments
 	>>> say_my_name("Zulu", "Pita")
 	My name is Zulu Pita
 	>>> say_my_name("Zyambo")
-	My name is Zyambo
+	My name is Zyambo 
 
 ================
 Types of errors
@@ -31,25 +31,24 @@ When called with non string types
 	>>> say_my_name(12, "Mwale")
 	Traceback (most recent call last):
 		...
-	raise TypeError: first_name must be a string
+	TypeError: first_name must be a string
+
 	>>> say_my_name("Zoe", 13)	
 	Traceback (most recent call last):
 		...
-	raise TypeError: last_name must be a string
+	TypeError: last_name must be a string
 
 	>>> say_my_name()
 	Traceback (most recent call last):
 		...
-	raise TypeError: say_my_name() missing 1 required positional arugument: 'first_name'
+	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
 
 	>>> say_my_name(["John"], ("Mike"))
 	Traceback (most recent call last):
 		...
-	raise TypeError: first_name must be a string
+	TypeError: first_name must be a string
 
 	>>> say_my_name("Mike", ("Joe",))
 	Traceback (most recent call last):
 		...
-	raise TypeError: last_name must be a string
-
-
+	TypeError: last_name must be a string
