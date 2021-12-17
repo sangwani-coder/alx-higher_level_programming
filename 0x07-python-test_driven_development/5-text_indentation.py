@@ -19,7 +19,7 @@ def text_indentation(text):
 
     x = 0
     while x < len(text) and text[x] == " ":
-        x +=  1
+        x += 1
 
     while x < len(text):
         print(text[x], end='')
