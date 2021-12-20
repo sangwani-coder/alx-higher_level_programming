@@ -5,6 +5,7 @@
     to an object if it's possible
 """
 
+
 def add_attribute(obj, attr, value):
     """ adds new attributes """
     if not hasattr(obj, "__dict__"):
