@@ -14,8 +14,8 @@ The class being inheried from, also called a base class.
 ## Child class:
 The class that inherits from another class, also called derived class.
 
-## Files, Protypes, Test files
-This directory contains all project files, .txt test files written independetly fo each task and main.py files provided by alx.
+## Files, Prototypes, Test files
+This directory contains all project files, .txt test files written independetly for each task and main.py files provided by alx.
 |file		    |prototype                       |my test file	                       |provided test file    |
 |-------------------|--------------------------------|-----------------------------------------|------------------------------|
 |0-lookup.py        |def lookup(obj):                | no test cases                        |[0-main.py](./tests/0-main.py)|	
