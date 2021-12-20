@@ -30,5 +30,6 @@ This directory contains all project files, .txt test files written independetly 
 |9-rectangle.py      | no function definition       | no test cases                |[9-main.py](./tests/9-main.py)|	
 |10-square.py        | no function definition       | no test cases                |[10-main.py](./tests/10-main.py)|	
 |11-square.py        | no function definition       | no test cases                |[11-main.py](./tests/11-main.py)|	
-
+|100-my_int.py       | overloads the == and != opeartors | no test cases           |[100-main.py](./tests/100-main.py) |     
+|101-my_int.py       | def add_attribute(obj, attr, value | no test cases           |[101-main.py](./tests/101-main.py) |     
 Auth: Sangwani P Zyambo
