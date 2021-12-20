@@ -3,7 +3,7 @@
 Python inheritance allows us to define a class that inherits all the methods and properties from another class.
 In python every class inherits from a built-in basic class called *object*
 
-## Benefits of inhertance:
+## Benefits of inheritance:
 * It provides _reusability_ of a code. We don't have to write the same code again and again.
 * It represents real-word relationships well.
 * Allows us to add more features to a class without modifying it.
@@ -21,7 +21,7 @@ This directory contains all project files, .txt test files written independetly 
 |0-lookup.py        |def lookup(obj):                | no test cases                        |[0-main.py](./tests/0-main.py)|	
 |1-my_list.py       |def print_sorted(Self):         |[1-my_list.txt](./1-my_list.txt)                 |[1-main.py](./tests/1-main.py)|	
 |2-is_same_class.py|def is_same_class(obj, a_class):|[2-is_same_class.txt](./tests/2-is_same_class.txt)|[2-main.py](./tests/2-main.py)|	
-|3-is_kind_of_class.py|def is_kind_of_class(obj, a_class):| no test cases    |         |[3-main.py](./tests/3-main.py)|	
+|3-is_kind_of_class.py|def is_kind_of_class(obj, a_class):| no test cases     |[3-main.py](./tests/3-main.py)|	
 |4-inherits_from.py  | def inherits_from(obj, a_class):|[4-inherits_fromtxt](./tests/inherits_from.txt)|[4-main.py](./tests/4-main.py)|	
 |5-base_geometry.py  |no function definition        | no test cases                |[5-main.py](./tests/5-main.py)|	
 |6-base_geometry.py  | def area(self):              |no test cases                |[6-main.py](./tests/6-main.py)|	
@@ -32,4 +32,6 @@ This directory contains all project files, .txt test files written independetly 
 |11-square.py        | no function definition       | no test cases                |[11-main.py](./tests/11-main.py)|	
 |100-my_int.py       | overloads the == and != opeartors | no test cases           |[100-main.py](./tests/100-main.py) |     
 |101-my_int.py       | def add_attribute(obj, attr, value | no test cases           |[101-main.py](./tests/101-main.py) |     
+
+
 Auth: Sangwani P Zyambo
