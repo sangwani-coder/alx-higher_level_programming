@@ -16,4 +16,5 @@ Write a function that reads a text file (UTF8) and prints it to stdout:
 
 ### Usage:
 Make sure the 0-main.py file is in the same directory as the 0-read_file.py.
+
 $ ./main.py
