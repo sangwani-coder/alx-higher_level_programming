@@ -15,4 +15,3 @@ def read_file(filename=""):
         text = f.read()
         for t in text:
             print(t, end='')
-        print("\n")
