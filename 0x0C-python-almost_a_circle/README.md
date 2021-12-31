@@ -30,12 +30,9 @@ Including:
 * All the classes shoud be documented
 * All functions(inside and outside a class)0 should be documented
 
-### Python Unit Tests
-* All files should end with a new line
-* Al the files should be inie a folder *tests*
-* Use the _unittest module_
-* All the test files should be python files(extension: .py)
-* All test files and folders should start with *test_*
-* The file organization in tests folders should be the same as the project: ex: for _models/base.py_, unit tests must be in: *tests/test_models/test_base.py*
-* All tests should be executed by using this command: _python3 -m unittest discover tests_
-* The test files can also be tested using this command: _python3 -m unitest tests/test_models/test_base.py_
+## Unit Testing
+This is a software testing method by which individual units of source code together with associated control data, usage procedures, and operating procedures are tested to determine if they are fit for use. in this project the python buitin *unittest module* was used as a unit testing framework.
+* The test files can be tested using this command: _python3 -m unitest tests/test_models/test_base.py_
+* All tests can be executed by using this command: _python3 -m unittest discover tests_
+
+Auth: Sangwani P Zyambo <mightypz2@gmail.com>
