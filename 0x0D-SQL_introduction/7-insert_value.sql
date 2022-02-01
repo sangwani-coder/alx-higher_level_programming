@@ -1,0 +1,1 @@
+--insert a new rows in first_table --in the database hbtn_0n_0

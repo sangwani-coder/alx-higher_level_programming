@@ -1,0 +1,1 @@
+--creates second_table in the database hbtn_0n_0 -- with multiple rows.
