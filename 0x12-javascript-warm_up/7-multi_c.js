@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
 let i = 0;
-const num = parseInt(process.argv.length);
+const num = parseInt(process.argv[2]);
 
-if (num < 3 || isNaN(num)) {
+if (process.argv.length < 3 || isNaN(num)) {
   console.log('Missing number of occurrences');
 } else {
   while (i < process.argv[2]) {
