@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ This module lists all the states from the
-    database hbtn_0e_0_usa
+    database hbtn_0e_0_usa.
 """
 
 import MySQLdb
@@ -8,7 +8,10 @@ import sys
 
 
 def main():
-    """ Function containing code to select states from database"""
+    """
+        Function containing code to select all the states
+        from the database.
+    """
 
     # Create a database connection
     conn = MySQLdb.connect(
