@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Updates the name of state object with the name passed as argument from the DB"""
+""" Updates the name of state object
+    with the name passed as argument from the DB
+"""
 import sys
 from model_state import Base, State
 from sqlalchemy import (create_engine)
