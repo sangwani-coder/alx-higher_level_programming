@@ -17,6 +17,11 @@ Base = declarative_base()
 
 
 class State(Base):
+    """ Represents a state for a MYSQL database.
+    __tablename__ (str): The name of a MYSQL table to store states
+    id (sqlalchemy.Integer): The Primary key(states id).
+    name (sqlalchemy.String): The name of the state.
+    """
     __tablename__ = "state"
     id = Column(Integer, primary_key=True)
     name = Column(String(128), nullable=False)
