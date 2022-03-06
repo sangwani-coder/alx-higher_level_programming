@@ -20,10 +20,9 @@ def main():
             )
     cur = conn.cursor()
     # Select states
-    cur.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY states.id ASC")
+    cur.execute("SELECT * FROM states ORDER BY id ASC")
     query_rows = cur.fetchall()
-    for row in query_rows:
-        print(row)
+    [print(state) for state in query_rows if state[1][0] == "N"]
     cur.close()
     conn.close()
 
