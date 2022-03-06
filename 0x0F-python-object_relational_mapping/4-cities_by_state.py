@@ -20,13 +20,13 @@ def main():
             )
     cur = conn.cursor()
     # Select states
-    cur.execute("SELECT cities.id,
-                cities.name, states.name FROM cities
-                INNER JOIN states ON
+    cur.execute("SELECT cities.id,\
+                cities.name, states.name FROM cities\
+                INNER JOIN states ON\
                 cities.state_id=states.id ORDER BY cities.id")
     query_rows = cur.fetchall()
-    for row in query_rows:
-        print(row)
+    for city in query_rows:
+        print(city)
     cur.close()
     conn.close()
 
