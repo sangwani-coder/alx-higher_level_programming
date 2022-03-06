@@ -21,11 +21,9 @@ def main():
     cur = conn.cursor()
     # Select states
     state_name = sys.argv[4]
-    sql = (
+    cur.execute(
             "SELECT * FROM states WHERE\
-                    name='{}' ORDER BY id ASC"
-            ).format(state_name)
-    cur.execute(sql)
+                    BINARY name='{}' ORDER BY id ASC".format(state_name))
     query_rows = cur.fetchall()
     for row in query_rows:
         print(row)
