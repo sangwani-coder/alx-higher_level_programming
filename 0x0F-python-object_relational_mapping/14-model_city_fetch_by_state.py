@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""lists all State objects from the database hbtn_0e_6_usa that contain 'a'"""
+"""lists all city objects from the database hbtn_0e_6_usa"""
 import sys
 from model_state import State
+from model_city import City
 from sqlalchemy import (create_engine)
 from sqlalchemy.orm import sessionmaker
 
@@ -12,7 +13,8 @@ if __name__ == "__main__":
             pool_pre_ping=True)
     Session = sessionmaker(bind=engine)
     session = Session()
-    for state in session.query(State):
-        if "a" in state.name:
-            session.delete(state
-    session.commit()
+
+    for city, state in session.query(City, State) \
+            .filter(City.state_id == State.id) \
+            .order_by(City.id):
+        print("{}: ({}) {}".format(state.name, city.id, city.name))
