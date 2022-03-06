@@ -22,6 +22,6 @@ class State(Base):
     id (sqlalchemy.Integer): The Primary key(states id).
     name (sqlalchemy.String): The name of the state.
     """
-    __tablename__ = "state"
+    __tablename__ = "states"
     id = Column(Integer, primary_key=True)
     name = Column(String(128), nullable=False)
