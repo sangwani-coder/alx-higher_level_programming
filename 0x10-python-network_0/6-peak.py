@@ -5,17 +5,23 @@
 """
 
 def find_peak(list_of_integers):
-    """Iterates list_of_integers to find a "peak"
-        returns the peak numbers.
-    """
-    arr = list_of_integers
-    size = len(list_of_integers)
+    """ returns the a peak in a an unsored list"""
 
+    arr = list_of_integers
+    if arr == []:
+        return None
+
+    size = len(list_of_integers)
     if size == 1:
         return arr[0]
-    if size == 0:
-        return
+    elif size == 2:
+        return max(arr)
+
+    half = int(size / 2)
+    peak = arr[half]
+    if peak > arr[half - 1] and peak > arr[half + 1]:
+        return peak    
+    elif peak < arr[half - 1]:
+        return find_peak(arr[:half])
     else:
-        for p in range(size):
-            if arr[p] >= arr[p-1] and arr[p] >= arr[p+1]:
-                return arr[p]
+        return find_peak(arr[half + 1:])
