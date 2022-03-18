@@ -10,7 +10,7 @@ from sys import argv
 if __name__ == "__main__":
     repo = argv[1]
     owner = argv[2]
-    url = "https://api.gihub.com/repos/{}/{}commits".format(owner, repo)
+    url = "https://api.github.com/repos/{}/{}/commits".format(owner, repo)
 
     r = requests.get(url)
     commits = r.json()
