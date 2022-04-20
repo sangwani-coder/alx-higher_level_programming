@@ -37,10 +37,25 @@ In this project I will be learning how to use jQuery to the following:
 * the <header> element must always have one class: *red* or *green*
 * No using the document.querySelector to select the HTML tag
 * Use the JQuery API
-* **4. List of elements**
+* **5. List of elements**
 [5-script.js](./5-script.js): Adds a <li> element to a list when the user clicks on the tag DIV#add_item:
 * The new element must be :<li>Item</li>
 * The new element must be added to UL.my_list
 * No using the document.querySelector to select the HTML tag
 * Use the JQuery API
 
+* **6. Change the text**
+[6-script.js](./6-script.js): updates the text of the <header> element to **New Header!!!** when the user clicks on DIV#update_header.
+
+* **7. Star wars character**
+[7-script.js](./7-script.js): Fetches the character _name_ from the URL: **https://swapi-api.hbtn.io/api/people/5/?format=json**.
+
+* **8. Star Wars movies**
+[8-script.js](./8-script.js): Fetches the _title_ for all movies by using the URL: **https://swapi-api.hbtn.io/api/films/?format=json**.
+
+* **9. Say Hello!**
+[9-script.js](./9-script.js):  Fetches from **https://fourtonfish.com/hellosalut/?lang=fr** and displays the value of hello from that fetch in the HTML tag DIV#hello.
+* The translation of “hello” must be displayed in the HTML tag DIV#hello
+* Don’t use document.querySelector to select the HTML tag
+* Use the JQuery API
+* The script must work when it is imported from the <head> tag
