@@ -32,3 +32,15 @@ In this project I will be learning how to use jQuery to the following:
 [3-script.js](./3-script.js): Adds the class red to the <header> element when the user clicks the tag **DIV#red\_header**:
 * No using the document.querySelector to select the HTML tag
 * Use the JQuery API
+* **4. Toggle classes**
+[4-script.js](./4-script.js): Toggles the class of the <header> element when the user clicks the tag **DIV#toggle_header**:
+* the <header> element must always have one class: *red* or *green*
+* No using the document.querySelector to select the HTML tag
+* Use the JQuery API
+* **4. List of elements**
+[5-script.js](./5-script.js): Adds a <li> element to a list when the user clicks on the tag DIV#add_item:
+* The new element must be :<li>Item</li>
+* The new element must be added to UL.my_list
+* No using the document.querySelector to select the HTML tag
+* Use the JQuery API
+
